@@ -3,7 +3,7 @@
     [
         {
             "progression": "Incorrect Login",
-            "description": "put in username",
+            "description": "Type in hello for Username",
             "result": "res",
             "step": "1",
             "element": ".username",
@@ -13,7 +13,7 @@
         },
         {
             "progression": "Incorrect Login",
-            "description": "put in password",
+            "description": "Type in Incorrect Password",
             "result": "res",
             "step": "2",
             "element": ".password",
@@ -23,7 +23,7 @@
         },
         {
             "progression": "Incorrect Login",
-            "description": "press login button",
+            "description": "Press Login Button",
             "result": "res",
             "step": "3",
             "element": "#loginbtn",
@@ -33,7 +33,7 @@
         },
         {
             "progression": "User Registration",
-            "description": "click new user",
+            "description": "Click on New User link",
             "result": "res",
             "step": "1",
             "element": "#newuser",
@@ -43,7 +43,7 @@
         },
         {
             "progression": "User Registration",
-            "description": "puts in name",
+            "description": "Type in Dan for Name",
             "result": "res",
             "step": "2",
             "element": ".name",
@@ -53,7 +53,7 @@
         },
         {
             "progression": "User Registration",
-            "description": "puts in username",
+            "description": "Type in Dan for Username",
             "result": "res",
             "step": "2",
             "element": ".username",
@@ -63,7 +63,7 @@
         },
         {
             "progression": "User Registration",
-            "description": "puts in password",
+            "description": "Type in pass123 for Password",
             "result": "res",
             "step": "2",
             "element": ".password",
@@ -73,27 +73,17 @@
         },
         {
             "progression": "User Registration",
-            "description": "clicks registration",
+            "description": "Click on Register Button",
             "result": "res",
-            "step": "2",
+            "step": "3",
             "element": "#registerbtn",
             "text": "",
             "action": "onClick",
             "png": "gb5"
         },
         {
-            "progression": "User Registration",
-            "description": "clicks btn on green background",
-            "result": "res",
-            "step": "3",
-            "element": "#registerbtn",
-            "text": "",
-            "action": "onClick",
-            "png": "gb3"
-        },
-        {
             "progression": "Correct Login",
-            "description": "Type in username",
+            "description": "Type in hello for Username",
             "result": "res",
             "step": "1",
             "element": ".username",
@@ -103,7 +93,7 @@
         },
         {
             "progression": "Correct Login",
-            "description": "Type in password",
+            "description": "Type in Correct Password",
             "result": "res",
             "step": "2",
             "element": ".password",
@@ -113,7 +103,7 @@
         },
         {
             "progression": "Correct Login",
-            "description": "Clicks on button",
+            "description": "Click on Login Button",
             "result": "res",
             "step": "3",
             "element": "#loginbtn",
